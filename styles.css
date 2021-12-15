@@ -1,0 +1,58 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+body{
+	background-color: teal;
+}
+
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+
+}
+.content{
+	padding: 80px;
+	font-family: Verdana, sans-serif;
+	height:max-content;
+}
+.content h1{
+	text-align: center;
+	padding: 20px;
+	font-size: 30pt;
+}
+
+.content table{
+	margin: auto;
+	width: 50%;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.content input[type=button]{
+	padding: 20px;
+	width: 100%;
+	font-size: 20pt;
+	background-color: floralwhite;
+	transition-duration: 0.3s;
+	border:0px
+}
+
+.content input[type=button]:hover{
+	background-color: coral;
+}
+
+.content input[type=button]:active{
+	background-color: floralwhite;
+}
+.content input[type=text]{
+	margin-bottom: 10px;
+	padding: 20px;
+	width: 100%;
+	font-size: 50px;
+}
